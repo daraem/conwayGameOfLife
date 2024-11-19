@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+main, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(6, 168, 168);
+    width: 100%;
+    height: 7vh;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+
+    vertical-align:bottom;
+	display:table-cell;
+
+    background-color: rgb(6, 168, 168);
+	color: black;
+	
+    height: 7vh;
+    width: 100%;
+
+    padding-left: 10px;
+}
+
+.gameOptions {
+    background-color: rgb(6, 168, 168);
+    position: fixed;
+    width: 100%;
+    height: 20vh;
+
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 50vh;
+    height: 10vh;
+
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    border-radius: 10px;
+    border: 5px solid black;
+
+    background-color: rgb(194, 217, 238);
+}
+
+canvas {
+    width: 100%;
+}
+
